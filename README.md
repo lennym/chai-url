@@ -32,3 +32,7 @@ The `path`, `pathname`, `hostname`, `auth` and `hash` functions can also perform
 ```js
 expect('http://example.com/foo/bar').to.contain.path('/foo');
 ```
+
+## Examples
+
+See the [tests for this module](./test/index.js) for further examples.
