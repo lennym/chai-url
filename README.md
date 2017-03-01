@@ -25,6 +25,8 @@ chai.expect('http://example.com/foo/bar').to.have.protocol('http');
 
 In each case, the property is tested against the corresponding property from node's [url.parse](https://nodejs.org/api/url.html#url_url_strings_and_url_objects) method.
 
+In the case of `hash` and `protocol` properties which may be prefixed/suffixed with `#` and `:` respectively these characters are optional and will match with or without their presence.
+
 ## Partial matching
 
 The `path`, `pathname`, `hostname`, `auth` and `hash` functions can also perform partial matching based on substrings by using a `contains` clause in the test statement.
