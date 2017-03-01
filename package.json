@@ -1,6 +1,6 @@
 {
   "name": "chai-url",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A chai assertion plugin for working with urls",
   "main": "index.js",
   "directories": {
