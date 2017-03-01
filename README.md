@@ -9,8 +9,8 @@ Provides a number of assertion helpers for working with urls.
 const chai = require('chai');
 chai.use(require('chai-url'));
 
-chai.expect(http://example.com/foo/bar).to.have.path('/foo/bar');
-chai.expect(http://example.com/foo/bar).to.have.protocol('http');
+chai.expect('http://example.com/foo/bar').to.have.path('/foo/bar');
+chai.expect('http://example.com/foo/bar').to.have.protocol('http');
 ```
 
 ## Available matchers
