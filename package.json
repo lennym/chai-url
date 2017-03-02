@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/lennym/chai-url/issues"
   },
+  "keywords": ["chai-plugin", "url", "assertion", "chai"],
   "homepage": "https://github.com/lennym/chai-url#readme"
 }
