@@ -1,6 +1,6 @@
 {
   "name": "chai-url",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A chai assertion plugin for working with urls",
   "main": "index.js",
   "directories": {
@@ -22,6 +22,11 @@
   "bugs": {
     "url": "https://github.com/lennym/chai-url/issues"
   },
-  "keywords": ["chai-plugin", "url", "assertion", "chai"],
+  "keywords": [
+    "chai-plugin",
+    "url",
+    "assertion",
+    "chai"
+  ],
   "homepage": "https://github.com/lennym/chai-url#readme"
 }
